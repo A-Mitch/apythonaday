@@ -10,9 +10,9 @@ tl;dr: Python (and JavaScript) are widely used and cool and I so I am going to t
 
 # How I am structuring this
 Homework: One small assignment created for myself that will incorporate many elements of python
-- Homework problems are going to be random problems/ scenarios that pop up in my head, hence why they come with stories/scenarios.
-<br>
+> - Homework problems are going to be random problems/ scenarios that pop up in my head, hence why they come with stories/scenarios.
+
 Small problems: These will consist of small problems that help me to understand CS concepts as well as Python patterns better.
-- Small problems are typically going to be random small problems that randomly pop up in my head
-<br>
+> - Small problems are typically going to be random small problems that randomly pop up in my head
+
 Summary: I am going to recount what I learned each week and what challenges I faced and how I overcame them
