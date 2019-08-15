@@ -1,3 +1,4 @@
+# Created and done by Alexander Mitchell
 # This program is a dictionary for translating English to Spanish words so my lazy friend Ted can do his homework
 
 # 1. Create a list of English words and their Spanish equivalents
