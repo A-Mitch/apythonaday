@@ -3,10 +3,31 @@
 import sys
 
 
-# I input a number and the base thar I want to convert it to
-btennum = sys.argv[1]
-resultbase = sys.argv[2]
+# Input a number and the base thar I want to convert it to
+btennum = int(sys.argv[1])
+resultbase = int(sys.argv[2])
 
-# Test for the sys args. I'll work on this tomorrowit's 12:54 in the morning and I have the coding bug. 
-# I need sleep.
-print(str(btennum)+" and "+str(resultbase))
+if resultbase > 10:
+    print("This is only for things below base 10 :)")
+    exit()
+
+# This tells the user what Base 10 number and reuslt base they entered. This is also the test for the sys args.
+print("Base 10: "+str(btennum)+" and Desired Base:  "+str(resultbase))
+
+# Divide the base 10 number by the desired base
+# The remainder is the rightmost number
+
+result = btennum/resultbase
+
+resultarr = []
+
+while btennum:
+    rem = btennum%resultbase
+    resultarr.append(rem)
+    btennum = btennum/resultbase
+
+if resultbase == 10:
+    print(resultarr[::-1])
+else:
+    print(resultarr)
+    
