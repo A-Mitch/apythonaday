@@ -17,8 +17,6 @@ print("Base 10: "+str(btennum)+" and Desired Base:  "+str(resultbase))
 # Divide the base 10 number by the desired base
 # The remainder is the rightmost number
 
-result = btennum/resultbase
-
 resultarr = []
 
 while btennum:
