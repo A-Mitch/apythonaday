@@ -24,8 +24,11 @@ while btennum:
     resultarr.append(rem)
     btennum = btennum/resultbase
 
+# This converts the result array to a string.
+stringconv = ''.join(map(str,resultarr))
+
 if resultbase == 10:
-    print(resultarr[::-1])
+    print(stringconv[::-1])
 else:
-    print(resultarr)
+    print(stringconv)
     
