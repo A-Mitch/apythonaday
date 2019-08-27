@@ -15,7 +15,7 @@ Homework: One small assignment created for myself that will incorporate many ele
 Small problems: These will consist of small problems that help me to understand CS concepts as well as Python patterns better.
 > - Small problems are typically going to be random small problems that randomly pop up in my head
 <br>
-Summaries will be posted on my [Medium](https://medium.com/@amitchellofficial).
+Summaries will be posted on my [Medium](https://medium.com/@amitchellofficial)
 
 # Ultimate Goal 💪🏽
 To become a better and confident programmer as well as a better thinker and crafter when it comes to creating a program/ anything. I want to think about who I am making this for and how what I create may be able to help them in anyway. Overall, this will help me with my confidence and versatility when it comes to progamming in various environments and languages because as Doctor Mitch would say, "A python a day keeps the doubt away."
