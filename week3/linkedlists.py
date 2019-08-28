@@ -20,8 +20,8 @@ class Node:
     
 
 class Linked_List:
-    # Set up function for the linkedlist that establishes an empty head
 
+    # Set up function for the linkedlist that establishes an empty head
     def __init__(self):
         self.head = Node()
 
@@ -37,7 +37,7 @@ class Linked_List:
         
         currNode.next = newNode
     
-    # gets the length, but also acts as a helper for the delNode fucntion
+    # Gets the length, but also acts as a helper for the delNode fucntion
     def listlength(self):
         currNode = self.head
         nodeTotal = 0
@@ -48,7 +48,7 @@ class Linked_List:
 
         return nodeTotal
 
-
+    # Deletes node at an index
     def delnodeatindex(self,index):
 
         if index >= self.listlength():
@@ -68,8 +68,7 @@ class Linked_List:
             
             currIndex +=1
 
-        print("lol")
-    
+    # Prints list
     def printList(self):
         nodeList = []
         currNode = self.head
@@ -79,7 +78,26 @@ class Linked_List:
             nodeList.append(currNode.data)
         print(str(nodeList))
 
-        
+    # This searches the list for an item
+    def searchList(self,item):
+        currNode = self.head
+        indexNum = 0
+
+        while currNode.next != None:
+            currNode = currNode.next
+            if item == currNode.data:
+                print("Found the item at "+ str(indexNum))
+            indexNum+=1
+            
+    
+    # This is only for finding and replacing characters
+    def findandreplace(self,char):
+        currNode = self.head
+
+        while currNode.next != None:
+            currNode = currNode.next
+            if char == currNode.data:
+                currNode.data = chr(ord(char)+1)
 
 
 
@@ -92,3 +110,14 @@ list1.addNode(15)
 list1.printList()
 list1.delnodeatindex(2)
 list1.printList()
+list1.searchList(15)
+list1.searchList(20)
+
+list2 = Linked_List()
+list2.addNode('a')
+list2.addNode('b')
+list2.addNode('c')
+list2.addNode('d')
+list2.printList()
+list2.findandreplace('c')
+list2.printList()
