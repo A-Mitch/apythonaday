@@ -9,3 +9,4 @@ My friend Juan just got a new drone, but he doesn't feel comfortable flying it y
 Linked Lists
 <br>
 ### Small Problem
+I did a lot of problems with linked lists and lists/arrays
