@@ -22,8 +22,8 @@ elif startup =="no":
     exit()
 
 update = input("Enter a command: ")
-x = 1
-y = 1
+x = 0
+y = 0 
 
 # This is for simulating flying the drone.
 while update != "stop":
@@ -41,10 +41,12 @@ while update != "stop":
     elif update == "right":
         x +=1
         print("Going right")
-    elif update == "current":
-        print("I am currently flying at X: "+str(x)+" Y: "+str(y))
     elif update == "commands":
         showcommands()
+    elif update == "current":
+        print("I am currently flying at X: "+str(x)+" Y: "+str(y))
+    elif update == "flip":
+        print("Flipper-doodly-do. Look at the air circle I drew.")
     elif update == "land":
         x=0
         y=0
