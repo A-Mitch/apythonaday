@@ -15,6 +15,9 @@ Homework: One small assignment created for myself that will incorporate many ele
 Small problems: These will consist of small problems that help me to understand CS concepts as well as Python patterns better.
 > - Small problems are typically going to be Leetcode problems or random small problems that randomly pop up in my head
 
+Data Structure(s): This will be either one or two data structure topics that I will focus on studying during the week.
+> - I will be taking notes on these concepts and working on implementing them in my small problems section
+
 Summary: I am going to recount what I learned each week and what challenges I faced and how I overcame them
 <br>
 Summaries will be posted on my [Medium](https://medium.com/@amitchellofficial).
