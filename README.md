@@ -13,7 +13,7 @@ Homework: One small assignment created for myself that will incorporate many ele
 > - Homework problems are going to be random problems/ scenarios that pop up in my head, hence why they come with stories/scenarios.
 
 Small problems: These will consist of small problems that help me to understand CS concepts as well as Python patterns better.
-> - Small problems are typically going to be random small problems that randomly pop up in my head
+> - Small problems are typically going to be Leetcode problems or random small problems that randomly pop up in my head
 
 Summary: I am going to recount what I learned each week and what challenges I faced and how I overcame them
 <br>
