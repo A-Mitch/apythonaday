@@ -7,11 +7,11 @@ Simon: Yo, do you know what web scraping is?
 <br>
 Me: Heard of it, was interested. Why?
 <br>
-Simon: Could you do something cool like find info on rappers or food or somehting for me?
+Simon: Banda gave us this homework where he wants us to do scraping on a provided document with bonus points if we scrape a website of our choice. Could you help?
 <br>
-Me: Sure. lol. Rappers or food though?
+Me: Yeah, sure. Mind if I scrape the Tekken website?
 <br>
-Simon: 🤷🏽‍♂️. Lol
+Simon: Lol smh u and Tekken. Go for it.
 <br>
 Me: I gotchu.
 <br>
