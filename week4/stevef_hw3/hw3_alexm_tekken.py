@@ -7,7 +7,7 @@ from lxml import etree
 
 r = requests.get("https://tekken.fandom.com/wiki/Steve_Fox")
 
-if r.status_code == 400 or r.status_code == 50:
+if r.status_code == 400 or r.status_code == 500:
     print("Connection bad: Houston we have a problem \n")
 elif r.status_code == 200:
     print("Connection good: We're good!! \n")
