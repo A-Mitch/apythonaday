@@ -99,6 +99,48 @@ class Linked_List:
             if char == currNode.data:
                 currNode.data = chr(ord(char)+1)
 
+    def swapnodes(self,item1,item2):
+
+        if item1 == item2:
+            return 
+
+        #traverse and look for item1 and 2
+        previ1 = None
+        currNodei1 = self.head
+    
+        while currNodei1 != None and currNodei1.data != item1:
+            previ1 = currNodei1
+            currNodei1 = currNodei1.next
+
+        
+        previ2 = None
+        currNodei2 = self.head
+
+        while currNodei2 != None and currNodei2.data != item2:
+            previ2 = currNodei2
+            currNodei2 = currNodei2.next
+        
+        # print(previ2.data)
+        # print(currNodei2.data)
+
+        if currNodei1 == None or currNodei2 == None:
+            print("Not found")
+            return
+        
+        # # is there a previous node
+        if previ1 != None:
+            previ1.next = currNodei2
+        else:
+            self.head = currNodei2
+
+        if previ2 != None:
+            previ2.next = currNodei1
+        else:
+            self.head = currNodei1
+        
+        # # swap nodes
+        currNodei1.next, currNodei2.next = currNodei2.next, currNodei1.next
+        
 
 
 list1 = Linked_List()
@@ -118,6 +160,9 @@ list2.addNode('a')
 list2.addNode('b')
 list2.addNode('c')
 list2.addNode('d')
+# list2.printList()
+# list2.findandreplace('c')
 list2.printList()
-list2.findandreplace('c')
+
+list2.swapnodes('b','c')
 list2.printList()
