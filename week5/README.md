@@ -2,7 +2,7 @@
 
 ## This week
 
-### My Homework 
+### My Homework (optional)
 The big Homie, Wulfy B (AKA Wolf Blitzer) asked if I could make something that would show him the new headlines from New York Times.
 <br>
 
