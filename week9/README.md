@@ -8,4 +8,5 @@ Not sure yet.
 <br>
 
 ### Small Problems
-Not sure yet.
+1. Reverse an array
+2. Insert a node at the end of a linked list
