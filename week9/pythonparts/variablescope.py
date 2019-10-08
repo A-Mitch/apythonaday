@@ -1,7 +1,7 @@
 import builtins
 # This is where I will be practicing variable scope
 
-# Understadnign variable scope in Python
+# Understanding variable scope in Python
 # LEGB: Local, Enclosing, Global, Built-in
 
 # Local: Variables defined in a fucntion
@@ -25,7 +25,7 @@ test('local x')
 print(world)
 
 # Built-in variables (B)
-# Built-in are like built-in keywords in java
+# Built-in are like keywords in java
 low = min([6,4,22,9,1])
 print(low)
 
@@ -48,3 +48,4 @@ def outer():
     print(y)
 
 outer()
+
